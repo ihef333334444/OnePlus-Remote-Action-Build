@@ -20,7 +20,7 @@
   "bbr": false,
   "ttl": false,
   "ip_set": false,
-  "unicode": true,
+  "unicode": false,
   "ntsync": false,
   "uname": "PADPROihef"
 }
