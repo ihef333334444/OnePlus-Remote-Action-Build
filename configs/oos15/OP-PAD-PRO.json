@@ -20,7 +20,7 @@
   "bbr": false,
   "ttl": false,
   "ip_set": false,
-  "unicode": false,
+  "unicode": true,
   "ntsync": false,
   "uname": "11-gbd1d0311f2fd-ab12786722"
 }
