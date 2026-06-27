@@ -20,7 +20,7 @@
   "bbr": false,
   "ttl": false,
   "ip_set": false,
-  "unicode": false,
+  "unicode": true,
   "ntsync": false,
   "uname": "owoovo"
 }
