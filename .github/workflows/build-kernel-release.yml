@@ -12,151 +12,151 @@ on:
         required: true
         type: choice
         options:
-          # OOS16
-          - OP15T_oos16
-          - OP15r_oos16
-          - OP15_oos16
-          - OP13_oos16
-          - OP13r_oos16
-          - OP13r-6.1.118_oos16
-          - OP13S_oos16
-          - OP13T_oos16
-          - OP12_oos16
-          - OP12-6.1.118_oos16
-          - OP12r_oos16
-          - OP12r-5.15.167_oos16
-          - OP11_oos16
-          - OP11-5.15.167_oos16
-          - OP11r_oos16
-          - OP10pro_oos16
-          - OP-TURBO-6V_oos16
-          - OP-TURBO-6_oos16
-          - OP-ACE-6T_oos16
-          - OP-ACE-6_oos16
-          - OP-ACE-6-ULTRA_oos16
-          - OP-ACE-5-PRO_oos16
-          - OP-ACE-5_oos16
-          - OP-ACE-5-6.1.118_oos16
-          - OP-ACE-5-ULTRA_oos16
-          - OP-ACE-5-RACE_oos16
-          - OP-ACE-3-PRO_oos16
-          - OP-ACE-3V_oos16
-          - OP-ACE-3V-6.1.118_oos16
-          - OP-ACE-3_oos16
-          - OP-ACE-3-5.15.167_oos16
-          - OP-ACE-2-PRO_oos16
-          - OP-ACE-2V_oos16
-          - OP-ACE-2_oos16
-          - OP-NORD-6_oos16
-          - OP-NORD-5_oos16
-          - OP-NORD-5-6.1.118_oos16
-          - OP-NORD-CE-5_oos16
-          - OP-NORD-4_oos16
-          - OP-NORD-4-6.1.118_oos16
-          - OP-NORD-4-CE_oos16
-          - OP-NORD-CE4-LITE_oos16
-          - OP-PAD-4_oos16
-          - OP-PAD-3-PRO_oos16
-          - OP-PAD-3-SM8750_oos16
-          - OP-PAD-3-MT6897_oos16
-          - OP-PAD-2-PRO_oos16
-          - OP-PAD-2-MT6991_oos16
-          - OP-PAD-2-SM8650_oos16
-          - OP-PAD-PRO_oos16
-          - OP-PAD-MT6983_oos16
-          - OP-PAD-LITE_oos16
-          - OP-OPEN_oos16
-          - OP-OPEN-5.15.167_oos16
-          - OP-PAD-GO-2_oos16
-          # OOS15
-          - OP13-CPH_oos15
-          - OP13-CPH-6.6.56_oos15
-          - OP13-PJZ_oos15
-          - OP13-6.6.30_oos15
-          - OP13r_oos15
-          - OP13r-6.1.75_oos15
-          - OP13S_oos15
-          - OP13T_oos15
-          - OP13T-6.6.56_oos15
-          - OP12_oos15
-          - OP12-6.1.75_oos15
-          - OP12r_oos15
-          - OP12r-5.15.149_oos15
-          - OP11_oos15
-          - OP11-5.15.149_oos15
-          - OP11r_oos15
-          - OP11r-5.10.209_oos15
-          - OP10t_oos15
-          - OP10t-5.10.226_oos15
-          - OP10t-5.10.209_oos15
-          - OP10pro_oos15
-          - OP10pro-5.10.209_oos15
-          - OP10r_oos15
-          - OP-ACE-5-PRO_oos15
-          - OP-ACE-5-PRO-6.6.30_oos15
-          - OP-ACE-5_oos15
-          - OP-ACE-5-6.1.75_oos15
-          - OP-ACE-5-ULTRA_oos15
-          - OP-ACE-5-ULTRA-6.6.50_oos15
-          - OP-ACE-5-RACE_oos15
-          - OP-ACE-3-PRO_oos15
-          - OP-ACE-3-PRO-6.1.75_oos15
-          - OP-ACE-3V_oos15
-          - OP-ACE-3V-6.1.75_oos15
-          - OP-ACE-3_oos15
-          - OP-ACE-3-5.15.149_oos15
-          - OP-ACE-2-PRO_oos15
-          - OP-ACE-2-PRO-5.15.149_oos15
-          - OP-ACE-2V_oos15
-          - OP-ACE-2V-5.10.209_oos15
-          - OP-ACE-2_oos15
-          - OP-ACE-2-5.10.209_oos15
-          - OP-ACE-RACE_oos15
-          - OP-ACE-RACE-5.10.226_oos15
-          - OP-ACE-RACE-5.10.209_oos15
-          - OP-ACE_oos15
-          - OP-ACE-5.10.209_oos15
-          - OP-NORD-5_oos15
-          - OP-NORD-CE-5_oos15
-          - OP-NORD-4_oos15
-          - OP-NORD-4-6.1.75_oos15
-          - OP-NORD-4-CE_oos15
-          - OP-NORD-4-CE-5.15.167_oos15
-          - OP-NORD-4-CE-5.15.149_oos15
-          - OP-NORD-CE4-LITE_oos15
-          - OP-NORD-3_oos15
-          - OP-NORD-3-5.10.209_oos15
-          - OP-NORD-N30-SE_oos15
-          - OP-PAD-3-SM8750_oos15
-          - OP-PAD-3-SM8750-6.6.30_oos15
-          - OP-PAD-3-MT6897_oos15
-          - OP-PAD-3-MT6897-6.1.75_oos15
-          - OP-PAD-2-PRO_oos15
-          - OP-PAD-2-PRO-6.6.30_oos15
-          - OP-PAD-2-SM8650_oos15
-          - OP-PAD-2-SM8650-6.1.75_oos15
-          - OP-PAD-PRO_oos15
-          - OP-PAD-PRO-6.1.75_oos15
-          - OP-PAD-MT6983_oos15
-          - OP-PAD-MT6983-5.10.209_oos15
-          - OP-PAD-LITE_oos15
-          - OP-OPEN_oos15
-          - OP-OPEN-5.15.149_oos15
-          # OOS14
-          - OP12_oos14
-          - OP11_oos14
-          - OP11r_oos14
-          - OP10pro_oos14
-          - OP10r_oos14
-          - OP-ACE-3-PRO_oos14
-          - OP-ACE-2V_oos14
-          - OP-ACE-RACE_oos14
-          - OP-ACE_oos14
-          - OP-NORD-3_oos14
-          - OP-PAD-PRO_oos14
-          - OP-PAD-MT6983_oos14
-          - OP-PAD-GO_oos14
-        default: OP11_oos16
+          # a16
+          - OP15T_a16
+          - OP15r_a16
+          - OP15_a16
+          - OP13_a16
+          - OP13r_a16
+          - OP13r-6.1.118_a16
+          - OP13S_a16
+          - OP13T_a16
+          - OP12_a16
+          - OP12-6.1.118_a16
+          - OP12r_a16
+          - OP12r-5.15.167_a16
+          - OP11_a16
+          - OP11-5.15.167_a16
+          - OP11r_a16
+          - OP10pro_a16
+          - OP-TURBO-6V_a16
+          - OP-TURBO-6_a16
+          - OP-ACE-6T_a16
+          - OP-ACE-6_a16
+          - OP-ACE-6-ULTRA_a16
+          - OP-ACE-5-PRO_a16
+          - OP-ACE-5_a16
+          - OP-ACE-5-6.1.118_a16
+          - OP-ACE-5-ULTRA_a16
+          - OP-ACE-5-RACE_a16
+          - OP-ACE-3-PRO_a16
+          - OP-ACE-3V_a16
+          - OP-ACE-3V-6.1.118_a16
+          - OP-ACE-3_a16
+          - OP-ACE-3-5.15.167_a16
+          - OP-ACE-2-PRO_a16
+          - OP-ACE-2V_a16
+          - OP-ACE-2_a16
+          - OP-NORD-6_a16
+          - OP-NORD-5_a16
+          - OP-NORD-5-6.1.118_a16
+          - OP-NORD-CE-5_a16
+          - OP-NORD-4_a16
+          - OP-NORD-4-6.1.118_a16
+          - OP-NORD-4-CE_a16
+          - OP-NORD-CE4-LITE_a16
+          - OP-PAD-4_a16
+          - OP-PAD-3-PRO_a16
+          - OP-PAD-3-SM8750_a16
+          - OP-PAD-3-MT6897_a16
+          - OP-PAD-2-PRO_a16
+          - OP-PAD-2-MT6991_a16
+          - OP-PAD-2-SM8650_a16
+          - OP-PAD-PRO_a16
+          - OP-PAD-MT6983_a16
+          - OP-PAD-LITE_a16
+          - OP-OPEN_a16
+          - OP-OPEN-5.15.167_a16
+          - OP-PAD-GO-2_a16
+          # a15
+          - OP13-CPH_a15
+          - OP13-CPH-6.6.56_a15
+          - OP13-PJZ_a15
+          - OP13-6.6.30_a15
+          - OP13r_a15
+          - OP13r-6.1.75_a15
+          - OP13S_a15
+          - OP13T_a15
+          - OP13T-6.6.56_a15
+          - OP12_a15
+          - OP12-6.1.75_a15
+          - OP12r_a15
+          - OP12r-5.15.149_a15
+          - OP11_a15
+          - OP11-5.15.149_a15
+          - OP11r_a15
+          - OP11r-5.10.209_a15
+          - OP10t_a15
+          - OP10t-5.10.226_a15
+          - OP10t-5.10.209_a15
+          - OP10pro_a15
+          - OP10pro-5.10.209_a15
+          - OP10r_a15
+          - OP-ACE-5-PRO_a15
+          - OP-ACE-5-PRO-6.6.30_a15
+          - OP-ACE-5_a15
+          - OP-ACE-5-6.1.75_a15
+          - OP-ACE-5-ULTRA_a15
+          - OP-ACE-5-ULTRA-6.6.50_a15
+          - OP-ACE-5-RACE_a15
+          - OP-ACE-3-PRO_a15
+          - OP-ACE-3-PRO-6.1.75_a15
+          - OP-ACE-3V_a15
+          - OP-ACE-3V-6.1.75_a15
+          - OP-ACE-3_a15
+          - OP-ACE-3-5.15.149_a15
+          - OP-ACE-2-PRO_a15
+          - OP-ACE-2-PRO-5.15.149_a15
+          - OP-ACE-2V_a15
+          - OP-ACE-2V-5.10.209_a15
+          - OP-ACE-2_a15
+          - OP-ACE-2-5.10.209_a15
+          - OP-ACE-RACE_a15
+          - OP-ACE-RACE-5.10.226_a15
+          - OP-ACE-RACE-5.10.209_a15
+          - OP-ACE_a15
+          - OP-ACE-5.10.209_a15
+          - OP-NORD-5_a15
+          - OP-NORD-CE-5_a15
+          - OP-NORD-4_a15
+          - OP-NORD-4-6.1.75_a15
+          - OP-NORD-4-CE_a15
+          - OP-NORD-4-CE-5.15.167_a15
+          - OP-NORD-4-CE-5.15.149_a15
+          - OP-NORD-CE4-LITE_a15
+          - OP-NORD-3_a15
+          - OP-NORD-3-5.10.209_a15
+          - OP-NORD-N30-SE_a15
+          - OP-PAD-3-SM8750_a15
+          - OP-PAD-3-SM8750-6.6.30_a15
+          - OP-PAD-3-MT6897_a15
+          - OP-PAD-3-MT6897-6.1.75_a15
+          - OP-PAD-2-PRO_a15
+          - OP-PAD-2-PRO-6.6.30_a15
+          - OP-PAD-2-SM8650_a15
+          - OP-PAD-2-SM8650-6.1.75_a15
+          - OP-PAD-PRO_a15
+          - OP-PAD-PRO-6.1.75_a15
+          - OP-PAD-MT6983_a15
+          - OP-PAD-MT6983-5.10.209_a15
+          - OP-PAD-LITE_a15
+          - OP-OPEN_a15
+          - OP-OPEN-5.15.149_a15
+          # a14
+          - OP12_a14
+          - OP11_a14
+          - OP11r_a14
+          - OP10pro_a14
+          - OP10r_a14
+          - OP-ACE-3-PRO_a14
+          - OP-ACE-2V_a14
+          - OP-ACE-RACE_a14
+          - OP-ACE_a14
+          - OP-NORD-3_a14
+          - OP-PAD-PRO_a14
+          - OP-PAD-MT6983_a14
+          - OP-PAD-GO_a14
+        default: OP11_a16
       ksu_options:
         description: 'Enter KernelSU build json'
         required: true
@@ -360,7 +360,7 @@ jobs:
             
             # Single GraphQL query: fetch commit SHA
             GL_QUERY="{ project(fullPath: \"${GITLAB_PROJECT_PATH}\") { repository { ch: commit(ref: \"${susfs_ref}\") { sha } } } }"
-
+            
             MAX_RETRIES=3
             RETRY_COUNT=0
             RETRY_DELAY=5
@@ -476,13 +476,7 @@ jobs:
           
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "> **💡 Note:** Hashes are resolved at run time via API calls before builds start." >> $GITHUB_STEP_SUMMARY
-          
-          # Add OOS restriction note for android-kernel filters
-          if [[ "${{ inputs.op_model }}" == android*-*.* ]]; then
-            echo "" >> $GITHUB_STEP_SUMMARY
-            echo "> **⚠️ Android-Kernel Filter:** Only OOS15 and OOS16 devices will be built for \`${{ inputs.op_model }}\`" >> $GITHUB_STEP_SUMMARY
-          fi
-  
+
   mirror_toolchain:
     needs: set-op-model
     if: ${{ inputs.mirror_toolchains }}
@@ -601,7 +595,7 @@ jobs:
             CCACHE_LOG="${{ github.workspace }}/ccache.log"
             mkdir -p "$CACHE_DIR"
             mkdir -p "$LDCACHE_DIR"
-
+            
             SETTINGS=(
               "CCACHE_DIR=$CACHE_DIR"
               "LDCACHE_DIR=$LDCACHE_DIR"
@@ -624,12 +618,12 @@ jobs:
               export "$setting"
               echo "$setting" >> "$GITHUB_ENV"
             done
-
+            
             if [ "${{ inputs.debug }}" == "true" ]; then
               export "CCACHE_LOGFILE=$CCACHE_LOG"
               echo "CCACHE_LOGFILE=$CCACHE_LOG" >> "$GITHUB_ENV"
             fi
-
+            
             if ccache --help 2>&1 | grep -q 'depend_mode'; then
               export CCACHE_DEPEND=true
               echo "CCACHE_DEPEND=true" >> "$GITHUB_ENV"
